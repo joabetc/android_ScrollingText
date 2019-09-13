@@ -31,7 +31,7 @@
         android:id="@+id/article"
         android:autoLink="web"
         android:layout_below="@id/article_subheading"
-        android:lineSpacingExtra="5sp"
+        android:lineSpacingExtra="@dimen/line_spacing"
         android:padding="@dimen/padding_regular"
         android:text="@string/article_text" />
 
